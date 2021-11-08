@@ -33,6 +33,8 @@ public class FTConfiguration: NSObject {
     public var textAlignment: NSTextAlignment = NSTextAlignment.left
     public var ignoreImageOriginalColor = false
     public var menuIconSize: CGFloat = FT.DefaultMenuIconSize
+    public var menuIconMargin: CGFloat = 0
+    public var menuTextMargin: CGFloat = 6
     
     public var selectedTextColor: UIColor = UIColor.darkText
     public var selectedCellBackgroundColor: UIColor = UIColor.red
